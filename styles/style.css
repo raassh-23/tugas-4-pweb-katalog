@@ -103,11 +103,15 @@ section:nth-of-type(2n) {
 }
 
 .about-desc, .contact-desc {
-    margin: 0;
+    margin: 0.5em;
 }
 
 em {
     font-style: normal;
+    font-weight: bold;
+}
+
+td:nth-child(1) {
     font-weight: bold;
 }
 
